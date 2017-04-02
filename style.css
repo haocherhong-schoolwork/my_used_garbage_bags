@@ -1,0 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "微軟正黑體", "Heiti TC";
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+h1, p {
+	margin: 0;
+}
+
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 1190px;
+	margin: auto;
+}
+
+body > header {
+	background: #3866b6;
+	position: relative;
+	padding-top: 540px;
+}
+
+body > header img {
+	top: -504px;
+	width: auto;
+}
+
+body > header h1 {
+	color: #3866b6;
+	font-size: 200pt !important;
+	line-height: 200px;
+	margin: 0;
+	padding: 0;
+	text-shadow: none !important;
+}
+
+body > header h1.second-row {
+	font-size: 284pt;
+	line-height: 260px;
+	text-align: right;
+}
+
+body > header > div {
+	background: white;
+	padding-bottom: 360px;
+}
+
+body > header .container {
+	padding-top: 200px;
+}
+
+svg {
+	width: 100%;
+	height: 193px;
+	position: absolute;
+	top: -193px;
+}
+
+.section {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.section h1 {
+	font-size: 160pt;
+}
+
+.section p {
+	font-size: 85pt;
+}
+
+.section h1, .section p {
+	text-align: right;
+	text-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+
+.section img {
+	position: absolute;
+	width: auto;
+}
+
+.section-1 {
+	background: #cdd9ed;
+	color: #bfd9d8;
+	fill: #cdd9ed;
+}
+
+.section-1 .container{
+	padding-bottom: 200px;
+}
+
+.section-1 h1 {
+	color: #dae9e8;
+}
+
+.section-1 img {
+	top: -55px;
+}
+
+.section-2 {
+	background: #a8bcdf;
+	color: #bfd9d8;
+	fill: #a8bcdf;
+}
+
+.section-2 .container {
+	padding-bottom: 200px;
+}
+
+.section-2 img {
+	left: -112px;
+	bottom: -31px;
+}
+
+.section-2 h1 {
+	color: #dae9e8;
+}
+
+.section-3 {
+	background: #8ca6d5;
+	fill: #8ca6d5;
+}
+
+.section-3 .container {
+	padding-bottom: 490px;
+}
+
+.section-3 h1 {
+	color: white;
+	text-align: left;
+}
+
+.section-3 img {
+	right: -24px;
+	bottom: -196px;
+}
+
+footer {
+	background: #7796cd;
+	fill: #7796cd;
+	padding-bottom: 150px;
+}
+
+footer p {
+	color: white;
+	line-height: 144px;
+	font-size: 93pt;
+}
+
+footer img {
+	left: -610px;
+	bottom: -150px;
+}
